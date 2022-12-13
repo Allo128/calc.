@@ -9,6 +9,10 @@ h1{
   margin: 0 auto;
   width: fit-content;
 }
+input{
+  text-align: center;
+}
+
 button{
   display: inline-block;
   width: 15px;
