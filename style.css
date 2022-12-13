@@ -3,3 +3,17 @@ h1{
   text-align: center;
   color: brown;
 }
+.calc{
+  border:3px solid black;
+  padding:15px;
+}
+button{
+  background-color: white;
+  width:15px;
+  height:12px;
+  margin:5px;
+  border:1px solid black;
+  border-radius:5px;
+  font-size:4px;
+  font-weight:120;
+}
