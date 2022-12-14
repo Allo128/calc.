@@ -27,8 +27,8 @@ tr,td{
 }
 button{
   display: inline-block;
-  width: 80px;
-  height: 64px;
+  /*width: 80px;
+  height: 64px;*/
   margin: 12px;
   border: 1px solid black;
   border-radius: 24px;
@@ -37,8 +37,10 @@ button{
   text-align: center;
 }
 button:not(#back){
+  padding: 17px 25px;
   font-size: 30px;
 }
 #back{
+  padding: 22px 30px;
   font-size: 20px;
 }
