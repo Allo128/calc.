@@ -19,8 +19,9 @@ h1{
   text-align: center;
   border: none;
 }
-td{
+tr,td{
   width: fit-content;
+  display: inline-block;
 }
 button{
   display: inline-block;
