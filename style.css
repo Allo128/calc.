@@ -37,7 +37,7 @@ button{
   text-align: center;
 }
 button:not(#back){
-  font-size: 35px;
+  font-size: 30px;
 }
 #back{
   font-size: 20px;
