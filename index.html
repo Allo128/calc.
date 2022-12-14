@@ -11,25 +11,33 @@
       <h1>calculator</h1>
     </header>
     <div class="calc">
-      <input type="text" id="shown" placeholder="enter numbers here!" readonly><br>
-      <div class="figures">
-        <button id="0">0</button>
-        <button id="1">1</button>
-        <button id="2">2</button>
-        <button id="3">3</button><br>
-        <button id="4">4</button>
-        <button id="5">5</button>
-        <button id="6">6</button>
-        <button id="7">7</button><br>
-        <button id="8">8</button>
-        <button id="9">9</button>
-        <button id="+">+</button>
-        <button id="×">×</button><br>
-        <button id="=">=</button>
-        <button id="back">back</button>
-        <button id="-">-</button>
-        <button id="÷">÷</button><br>
-      </div>
+      <input type="text" id="shown" placeholder="enter numbers here!" readonly>
+      <table class="figures">
+        <tr>
+          <td><button id="0">0</button><td>
+          <td><button id="1">1</button></td>
+          <td><button id="2">2</button></td>
+          <td><button id="+">+</button></td>
+          <td><button id="-">-</button></td>
+          <td><button id="=">=</button></td>
+        </tr>
+        <tr>
+          <td><button id="3">3</button></td>
+          <td><button id="4">4</button></td>
+          <td><button id="5">5</button></td>
+          <td><button id="*">×</button></td>
+          <td><button id="/">÷</button></td>
+          <td><button id="back">back</button></td>
+        </tr>
+        <tr>
+          <td><button id="6">6</button></td>
+          <td><button id="7">7</button></td>
+          <td><button id="8">8</button></td>
+          <td><button id="9">9</button></td>
+          <td><button id="square">n²</button></td>
+          <td><button id="root">√n</button></td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
