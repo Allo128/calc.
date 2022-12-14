@@ -1,5 +1,7 @@
-h1{
+*{
   font-family: geo;
+}
+h1{
   text-align: center;
   color: brown;
 }
@@ -10,7 +12,7 @@ h1{
   width: fit-content;
 }
 #shown{
-  text-align: center;
+  margin: 
   width: 700px;
   height: 70px;
   font-size: 50px;
@@ -32,5 +34,6 @@ button{
   border-radius: 24px;
   font-size: 20px;
   color: black;
+  background-color: gray;
   text-align: center;
 }
