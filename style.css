@@ -11,11 +11,13 @@ h1{
 }
 #shown{
   text-align: center;
-  width:700px;
-  height:70px;
+  width: 700px;
+  height: 70px;
+  font-size: 50px;
 }
 .figures{
-  text-align:center;
+  text-align: center;
+  border: none;
 }
 button{
   display: inline-block;
